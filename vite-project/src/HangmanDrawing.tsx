@@ -1,7 +1,6 @@
 type HangmanDrawingProps = {
   numberOfGuesses: number;
 };
-
 const HEAD = (
   <div
     style={{
@@ -15,7 +14,6 @@ const HEAD = (
     }}
   />
 );
-
 const BODY = (
   <div
     style={{
